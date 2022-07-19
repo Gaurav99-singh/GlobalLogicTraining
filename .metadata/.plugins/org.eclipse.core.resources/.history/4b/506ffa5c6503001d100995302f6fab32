@@ -1,0 +1,14 @@
+package com.globallogic.classTraining;
+
+public class Company {
+	
+	private String name,headQuarters,ceoName;
+	private int noOfEmployees,noOfBranch;
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

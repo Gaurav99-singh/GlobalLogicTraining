@@ -1,0 +1,14 @@
+package com.globallogic.classTraining;
+
+public class Animal {
+
+	private String name,type,color;
+	private 
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

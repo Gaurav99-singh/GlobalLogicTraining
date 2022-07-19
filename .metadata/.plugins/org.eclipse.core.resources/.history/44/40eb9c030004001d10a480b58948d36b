@@ -1,0 +1,46 @@
+package com.globallogic.inheritance;
+
+class A {
+
+	public void printA() {
+		System.out.println("INSIDE A");
+	}
+
+}
+
+
+class B extends A {
+
+	public void printB() {
+		System.out.println("INSIDE B");
+	}
+}
+
+class C extends A{
+	
+	public void printC() {
+		System.out.println("INSIDE C");
+	}
+}
+
+
+public class HierarchicalInheritanceDemo {
+
+	public static void main(String[] args) {
+		
+		
+		B b = new B();
+		b.printA();
+		b.printB();
+		
+		System.out.println();
+		
+		C c = new C();
+		c.printA();
+		c.printC();
+		
+		
+
+	}
+
+}
