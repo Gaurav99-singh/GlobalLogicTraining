@@ -4,4 +4,9 @@
     <fullyQualifiedTypeName name="com.globallogic.day5.MethodOverloading"/>
     <fullyQualifiedTypeName name="com.globallogic.day5.ClassicalSinger"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="com.globallogic.collections.StudentDemo"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
 </qualifiedTypeNameHistroy>
