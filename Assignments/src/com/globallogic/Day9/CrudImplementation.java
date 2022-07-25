@@ -9,7 +9,7 @@ public class CrudImplementation {
 
 	Scanner sc = new Scanner(System.in);
 
-	Set<EmployeeDemo> empSet = new HashSet<>();
+	Set<EmployeeDemo> empSet = new TreeSet<>();
 
 	public void addEmployee() {
 
@@ -69,7 +69,7 @@ public class CrudImplementation {
 	}
 
 	public void sortEmployees() {
-		//Collections.sort(empSet, new SortByName());
+		//Collections.sort((List<EmployeeDemo>) empSet);
 		System.out.println(empSet);
 	}
 }

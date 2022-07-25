@@ -1,6 +1,6 @@
 package com.globallogic.Day9;
 
-public class EmployeeDemo  {
+public class EmployeeDemo implements Comparable<EmployeeDemo> {
 
 	private int id;
 	private String name;
@@ -41,5 +41,12 @@ public class EmployeeDemo  {
 	public String toString() {
 		return "EmployeeDemo [id=" + id + ", name=" + name + ", salary=" + salary + "]";
 	}
+
+	
+
+	@Override
+	public int compareTo(EmployeeDemo o) {
+
+		return this.getName().compareTo(o.getName());}
 	
 }
