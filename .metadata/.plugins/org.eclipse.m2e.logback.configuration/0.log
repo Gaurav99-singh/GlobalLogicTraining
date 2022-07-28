@@ -81,3 +81,47 @@ java.io.IOException: Creating directories for Z:\.config\jgit failed
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
 	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+2022-07-25 09:36:26,511 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-07-25 09:36:31,274 [JGit-FileStoreAttributeWriter-2] ERROR org.eclipse.jgit.util.FS - Cannot save config file 'FileBasedConfig[Z:\.config\jgit\config]'
+java.io.IOException: Creating directories for Z:\.config\jgit failed
+	at org.eclipse.jgit.util.FileUtils.mkdirs(FileUtils.java:413) ~[na:na]
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:140) ~[na:na]
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:184) ~[na:na]
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:761) ~[na:na]
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$5(FS.java:443) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+2022-07-26 09:40:03,807 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-07-26 09:40:07,831 [JGit-FileStoreAttributeWriter-2] ERROR org.eclipse.jgit.util.FS - Cannot save config file 'FileBasedConfig[Z:\.config\jgit\config]'
+java.io.IOException: Creating directories for Z:\.config\jgit failed
+	at org.eclipse.jgit.util.FileUtils.mkdirs(FileUtils.java:413) ~[na:na]
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:140) ~[na:na]
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:184) ~[na:na]
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:761) ~[na:na]
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$5(FS.java:443) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+2022-07-26 10:41:52,088 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-07-26 10:41:56,656 [JGit-FileStoreAttributeWriter-2] ERROR org.eclipse.jgit.util.FS - Cannot save config file 'FileBasedConfig[Z:\.config\jgit\config]'
+java.io.IOException: Creating directories for Z:\.config\jgit failed
+	at org.eclipse.jgit.util.FileUtils.mkdirs(FileUtils.java:413) ~[na:na]
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:140) ~[na:na]
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:184) ~[na:na]
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:761) ~[na:na]
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$5(FS.java:443) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+2022-07-27 09:36:54,915 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-07-27 09:36:59,616 [JGit-FileStoreAttributeWriter-2] ERROR org.eclipse.jgit.util.FS - Cannot save config file 'FileBasedConfig[Z:\.config\jgit\config]'
+java.io.IOException: Creating directories for Z:\.config\jgit failed
+	at org.eclipse.jgit.util.FileUtils.mkdirs(FileUtils.java:413) ~[na:na]
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:140) ~[na:na]
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:184) ~[na:na]
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:761) ~[na:na]
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$5(FS.java:443) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]

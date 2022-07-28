@@ -24,4 +24,15 @@
     <fullyQualifiedTypeName name="com.globallogic.collections.Employee"/>
     <fullyQualifiedTypeName name="java.util.Comparator"/>
     <fullyQualifiedTypeName name="java.lang.Comparable"/>
+    <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
+    <fullyQualifiedTypeName name="com.globallogic.demo10.SumDemo"/>
+    <fullyQualifiedTypeName name="com.globallogic.lambda.EvenOdd"/>
+    <fullyQualifiedTypeName name="com.globallogic.lambda.LargestNumDemo"/>
+    <fullyQualifiedTypeName name="com.globallogic.lambda.SmallestNumDemo"/>
+    <fullyQualifiedTypeName name="com.globallogic.lambda.PrintDemo1"/>
+    <fullyQualifiedTypeName name="com.globallogic.lambda.SumOneToTen"/>
+    <fullyQualifiedTypeName name="java.util.stream.IntStream"/>
+    <fullyQualifiedTypeName name="com.globallogic.lambda.PositiveNegative"/>
+    <fullyQualifiedTypeName name="com.globallogic.lambda.StringToUpper"/>
+    <fullyQualifiedTypeName name="com.globallogic.lambda.SquareRoot"/>
 </qualifiedTypeNameHistroy>
